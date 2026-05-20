@@ -1,0 +1,16 @@
+{
+  "name": "salary-netlify-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site - no build step'"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest"
+  },
+  "devDependencies": {
+    "netlify-cli": "latest"
+  }
+}
